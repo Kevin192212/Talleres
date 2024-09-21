@@ -1,0 +1,32 @@
+.w-100px {
+    width: 100px;
+}
+
+.hover-card {
+    transition: all 0.3s ease; 
+  }
+
+.hover-card:hover {
+    transform: translateY(-10px);  
+  }
+
+#cards-container .card {
+    height: 70%;
+}
+
+#cards-container .col-lg-2 {
+    display: flex;
+    align-items: stretch;
+}
+
+.logo-animation {
+    transition: transform 0.3s ease;
+}
+
+.logo-animation:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+}
+
+.text-gray {
+    color: #676667;
+}
