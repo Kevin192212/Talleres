@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "edad": 72,
+      "ubicacion": "Barrio Centro"
+    },
+    {
+      "id": 2,
+      "nombre": "María Gómez",
+      "edad": 65,
+      "ubicacion": "Barrio El Carmen"
+    },
+    {
+      "id": 3,
+      "nombre": "José Rodríguez",
+      "edad": 80,
+      "ubicacion": "Barrio La Paz"
+    }
+  ]
