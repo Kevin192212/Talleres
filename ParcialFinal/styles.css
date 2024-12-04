@@ -1,99 +1,47 @@
 
-/* Boton (formulario) */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-
-:root {
-  --white: #ececec;
-  --black: #333333;
-  --yellow: #ffff00;
-  --purple: #8a19ff;
-  --colorPrimary: var(--yellow);
-  --colorSecondary: var(--purple);
-}
-
-/* Estilo para el botón split */
-.btn-split {
-  position: relative;
-  letter-spacing: 0.25em;
-  margin: 0 auto;
-  padding: 1rem 2.5rem;
-  background: transparent;
-  outline: none;
-  font-size: 28px;
-  color: var(--black);
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: none;
-}
-
-.btn-split::after,
-.btn-split::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 50%;
-  transform: skewX(30deg);
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  z-index: -2;
-}
-
-.btn-split::before {
-  background-color: var(--colorPrimary);
-  top: -1rem;
-  left: 0rem;
-}
-
-.btn-split::after {
-  background-color: var(--colorSecondary);
-  top: 1rem;
-  left: 8rem;
-}
-
-.btn-split:hover::before,
-.btn-split:hover::after {
-  top: 0;
-  transform: skewX(0deg);
-}
-
-.btn-split:hover::after {
-  left: 0rem;
-}
-
-.btn-split:hover::before {
-  left: 8.75rem;
-}
-
 /* General */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* MENU (Navbar) */
+/* Estilo para la barra de navegación */
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semi-transparente */
   padding: 10px 0;
+  z-index: 999;
 }
 
 nav ul {
   display: flex;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 nav li {
-  margin: 0 15px;
+  margin-right: 15px;
 }
 
 nav a {
-  color: #fff;
   text-decoration: none;
+  color: white;
   font-size: 14px;
+  padding: 5px 10px;
   transition: color 0.3s ease;
 }
 
@@ -101,36 +49,21 @@ nav a:hover {
   color: #aaa;
 }
 
-/* CUERPO */
-main {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.apple-icon svg {
+  fill: white;
+  transition: fill 0.3s ease;
 }
 
-/* FORMULARIO */
-button.btn-split {
-  background-color: #007bff; /* Bootstrap primary color */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+.apple-icon a:hover svg {
+  fill: #aaa;
 }
 
-button.btn-split:hover {
-  background-color: #0056b3; /* Darker shade of primary color */
-  transform: scale(1.05);
+/* Cambiar color de los elementos al hacer scroll */
+nav, .apple-icon a {
+  transition: all 0.3s ease;
 }
 
-/* PIE DE PÁGINA */
-footer {
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
+/* Cambiar el fondo del nav al hacer scroll */
+nav.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
 }

@@ -7,100 +7,99 @@ const MenuItem = {
           </a>
       </li>
     `,
-  };
-  
-  // Componentes específicos para cada ítem del menú
-  const MacItem = {
+};
+
+// Componentes específicos para cada ítem del menú
+const MacItem = {
     template: `
       <menu-item>
           <slot></slot>
       </menu-item>
     `,
     components: { 'menu-item': MenuItem },
-  };
-  
-  const IpadItem = {
+};
+
+const IpadItem = {
     template: `
       <menu-item>
           <slot></slot>
       </menu-item>
     `,
     components: { 'menu-item': MenuItem },
-  };
-  
-  const IphoneItem = {
+};
+
+const IphoneItem = {
     template: `
       <menu-item>
           <slot></slot>
       </menu-item>
     `,
     components: { 'menu-item': MenuItem },
-  };
-  
-  const WatchItem = {
+};
+
+const WatchItem = {
     template: `
       <menu-item>
           <slot></slot>
       </menu-item>
     `,
     components: { 'menu-item': MenuItem },
-  };
-  
-  const AirpodsItem = {
+};
+
+const AirpodsItem = {
     template: `
       <menu-item>
           <slot></slot>
       </menu-item>
     `,
     components: { 'menu-item': MenuItem },
-  };
-  
-  const TvHomeItem = {
+};
+
+const TvHomeItem = {
     template: `
       <menu-item>
           <slot></slot>
       </menu-item>
     `,
     components: { 'menu-item': MenuItem },
-  };
-  
-  const EntertainmentItem = {
+};
+
+const EntertainmentItem = {
     template: `
       <menu-item>
           <slot></slot>
       </menu-item>
     `,
     components: { 'menu-item': MenuItem },
-  };
-  
-  const SupportItem = {
+};
+
+const SupportItem = {
     template: `
       <menu-item>
           <slot></slot>
       </menu-item>
     `,
     components: { 'menu-item': MenuItem },
-  };
-  
-  const WhereToBuyItem = {
+};
+
+const WhereToBuyItem = {
     template: `
       <menu-item>
           <slot></slot>
       </menu-item>
     `,
     components: { 'menu-item': MenuItem },
-  };
-  
-  // Crear la aplicación y registrar los componentes
-  const app = Vue.createApp({});
-  app.component('mac-item', MacItem);
-  app.component('ipad-item', IpadItem);
-  app.component('iphone-item', IphoneItem);
-  app.component('watch-item', WatchItem);
-  app.component('airpods-item', AirpodsItem);
-  app.component('tv-home-item', TvHomeItem);
-  app.component('entertainment-item', EntertainmentItem);
-  app.component('support-item', SupportItem);
-  app.component('where-to-buy-item', WhereToBuyItem);
-  app.mount('#app');
-  
+};
+
+// Crear la aplicación y registrar los componentes
+const app = Vue.createApp({});
+app.component('mac-item', MacItem);
+app.component('ipad-item', IpadItem);
+app.component('iphone-item', IphoneItem);
+app.component('watch-item', WatchItem);
+app.component('airpods-item', AirpodsItem);
+app.component('tv-home-item', TvHomeItem);
+app.component('entertainment-item', EntertainmentItem);
+app.component('support-item', SupportItem);
+app.component('where-to-buy-item', WhereToBuyItem);
+app.mount('#app');
