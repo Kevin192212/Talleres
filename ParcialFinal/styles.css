@@ -63,3 +63,74 @@
 .btn-split:hover::before {
   left: 8.75rem;
 }
+
+/* General */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* MENU (Navbar) */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #aaa;
+}
+
+/* CUERPO */
+main {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* FORMULARIO */
+button.btn-split {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.btn-split:hover {
+  background-color: #0056b3; /* Darker shade of primary color */
+  transform: scale(1.05);
+}
+
+/* PIE DE PÁGINA */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

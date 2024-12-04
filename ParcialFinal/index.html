@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>Vue Navbar Example</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="app.js" defer></script>
-=======
+    <script src="component.js" defer></script>
     <title>Venta de Telefonos</title>
     <link rel="stylesheet" href="styles.css">
     <link
@@ -23,7 +21,6 @@
       crossorigin="anonymous"
     ></script>
 
->>>>>>> 545cf21f9da8666512a4fc746eccb5e2cb3d4ce1
 </head>
 <body>
     <div id="app" class="container">
@@ -31,9 +28,15 @@
         <!-- MENU -->
         <nav>
             <ul>
-                <li v-for="(item, index) in menuItems" :key="index">
-                    <a :href="item.link">{{ item.name }}</a>
-                </li>
+                <mac-item>Mac</mac-item>
+                <ipad-item>iPad</ipad-item>
+                <iphone-item>iPhone</iphone-item>
+                <watch-item>Watch</watch-item>
+                <airpods-item>AirPods</airpods-item>
+                <tv-home-item>TV y Casa</tv-home-item>
+                <entertainment-item>Entretenimiento</entertainment-item>
+                <support-item>Soporte</support-item>
+                <where-to-buy-item>Dónde comprar</where-to-buy-item>
             </ul>
         </nav>
 
