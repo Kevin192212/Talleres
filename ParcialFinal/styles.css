@@ -1,15 +1,9 @@
-
 /* General */
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: 'Lato', sans-serif;
-}
 
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 /* Estilo para la barra de navegación */
@@ -66,4 +60,19 @@ nav, .apple-icon a {
 /* Cambiar el fondo del nav al hacer scroll */
 nav.scrolled {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Boton formulario */
+.formulario {
+  background-image: url('https://www.apple.com/v/iphone-16-pro/c/images/overview/camera-system/hero_camera_hw__l3esjbq1awy2_large.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Video Carrusel */
+.video-carrusel .carousel-caption {
+  top: 0;
+  left: 0;
+  text-align: left;
 }
