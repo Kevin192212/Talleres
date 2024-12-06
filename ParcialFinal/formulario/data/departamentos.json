@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Amazonas",
+    "cities": ["Leticia", "Puerto Nariño"]
+  },
+  {
+    "name": "Antioquia",
+    "cities": [
+      "Medellín", "Bello", "Itagüí", "Rionegro", "Envigado", "La Ceja", "Caldas", "Sabaneta", "Copacabana", "Bello", "Caucasia", "Apartadó"
+    ]
+  },
+  {
+    "name": "Atlántico",
+    "cities": [
+      "Barranquilla", "Soledad", "Puerto Colombia", "Malambo", "Galapa", "Sabanalarga", "Baranoa", "Piohacha", "Candelaria"
+    ]
+  },
+  {
+    "name": "Bogotá",
+    "cities": ["Bogotá"]
+  },
+  {
+    "name": "Bolívar",
+    "cities": [
+      "Cartagena", "Magangué", "Turbaco", "Arjona", "María La Baja", "Mompox", "Santa Catalina", "Clemencia"
+    ]
+  },
+  {
+    "name": "Boyacá",
+    "cities": [
+      "Tunja", "Duitama", "Sogamoso", "Chiquinquirá", "Samacá", "Paz de Río", "Soatá", "Cuitiva"
+    ]
+  },
+  {
+    "name": "Caldas",
+    "cities": [
+      "Manizales", "La Dorada", "Chinchiná", "Riosucio", "Villamaría", "Anserma", "Neira"
+    ]
+  },
+  {
+    "name": "Caquetá",
+    "cities": [
+      "Florencia", "Solano", "San Vicente del Caguán", "Curillo", "El Doncello"
+    ]
+  },
+  {
+    "name": "Casanare",
+    "cities": [
+      "Yopal", "Aguazul", "Tauramena", "Hato Corozal", "Monterrey"
+    ]
+  },
+  {
+    "name": "Cauca",
+    "cities": [
+      "Popayán", "Santander de Quilichao", "Piendamo", "Inzá", "El Tambo"
+    ]
+  },
+  {
+    "name": "Cesar",
+    "cities": [
+      "Valledupar", "Aguachica", "Codazzi", "La Jagua de Ibirico", "Manaure"
+    ]
+  },
+  {
+    "name": "Chocó",
+    "cities": [
+      "Quibdó", "Acandí", "Riosucio", "Carmen de Atrato", "Bajo Baudó"
+    ]
+  },
+  {
+    "name": "Córdoba",
+    "cities": [
+      "Montería", "Lorica", "Sahagún", "Cereté", "San Antero", "Tuchín"
+    ]
+  },
+  {
+    "name": "Cundinamarca",
+    "cities": [
+      "Bogotá", "Fusagasugá", "Soacha", "Chía", "Madrid", "Zipaquirá", "La Vega", "Villeta"
+    ]
+  },
+  {
+    "name": "Guaviare",
+    "cities": [
+      "San José del Guaviare", "El Retorno", "Calamar"
+    ]
+  },
+  {
+    "name": "Guainía",
+    "cities": [
+      "Inírida", "San Felipe", "Barrancominas"
+    ]
+  },
+  {
+    "name": "Huila",
+    "cities": [
+      "Neiva", "Pitalito", "La Plata", "Campoalegre", "Garzón", "Algeciras"
+    ]
+  },
+  {
+    "name": "La Guajira",
+    "cities": [
+      "Riohacha", "Maicao", "Manaure", "Uribia", "Fonseca"
+    ]
+  },
+  {
+    "name": "Magdalena",
+    "cities": [
+      "Santa Marta", "Ciénaga", "Fundación", "El Banco", "Aracataca"
+    ]
+  },
+  {
+    "name": "Meta",
+    "cities": [
+      "Villavicencio", "Acacías", "Restrepo", "Granada", "Guamal", "Puerto López"
+    ]
+  },
+  {
+    "name": "Nariño",
+    "cities": [
+      "Pasto", "Tumaco", "Ipiales", "La Unión", "San Juan de Pasto"
+    ]
+  },
+  {
+    "name": "Norte de Santander",
+    "cities": [
+      "Cúcuta", "Pamplona", "Ocaña", "Los Patios", "Villa del Rosario"
+    ]
+  },
+  {
+    "name": "Putumayo",
+    "cities": [
+      "Mocoa", "Villagarzón", "La Hormiga", "Puerto Asís"
+    ]
+  },
+  {
+    "name": "Quindío",
+    "cities": [
+      "Armenia", "Montenegro", "Circasia", "Quimbaya"
+    ]
+  },
+  {
+    "name": "Risaralda",
+    "cities": [
+      "Pereira", "Dosquebradas", "Santa Rosa de Cabal", "La Virginia", "Apía"
+    ]
+  },
+  {
+    "name": "San Andrés y Providencia",
+    "cities": [
+      "San Andrés", "Providencia"
+    ]
+  },
+  {
+    "name": "Santander",
+    "cities": [
+      "Bucaramanga", "Barrancabermeja", "Floridablanca", "Piedecuesta", "Girón"
+    ]
+  },
+  {
+    "name": "Sucre",
+    "cities": [
+      "Sincelejo", "Corozal", "Santiago de Tolú", "Morroa"
+    ]
+  },
+  {
+    "name": "Tolima",
+    "cities": [
+      "Ibagué", "Lérida", "Espinal", "Honda", "Melgar"
+    ]
+  },
+  {
+    "name": "Valle del Cauca",
+    "cities": [
+      "Cali", "Buenaventura", "Palmira", "Tuluá", "Buga", "Yumbo"
+    ]
+  },
+  {
+    "name": "Vaupés",
+    "cities": [
+      "Mitú", "Carurú", "Pacoa"
+    ]
+  },
+  {
+    "name": "Vichada",
+    "cities": [
+      "Puerto Carreño", "Cumaribo", "La Primavera"
+    ]
+  }
+]
+
+
+  
