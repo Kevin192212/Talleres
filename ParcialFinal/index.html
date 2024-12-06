@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venta de Telefonos</title>
+    <title>Venta de Teléfonos</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="component.js" defer></script>
@@ -15,8 +15,8 @@
 <body>
 
     <div class="conteiner">
-        <!-- Menu -->
-         <div id="app" class="container">
+        <!-- Menú -->
+        <div id="app" class="container">
             <nav>
                 <ul>
                     <li class="apple-icon">
@@ -37,28 +37,82 @@
                     <where-to-buy-item>Dónde comprar</where-to-buy-item>
                 </ul>
             </nav>
-         </div>
+        </div>
 
-         <!-- Body -->
-           <br><br>
+        <!-- Cuerpo -->
+        <br><br>
 
         <div class="Body row">
             <div class="Uno-Tres col-6" style="border: 2px solid blue;">
                 <div class="Uno row" style="border: 2px solid black;">
-                    <div class="Fomulario-Boton col-3" style="border: 2px solid red;"></div>
+                    <div class="Formulario-Boton col-3" style="border: 2px solid red;"></div>
                     <br>
                     <div class="Video-Carrusel col-9" style="border: 2px solid red;"></div>
-
                 </div>
                 <br>
                 <div class="Tres" style="border: 2px solid black;"></div>
-
             </div>
             <br><br>
-            <div class="Dos col-6" style="border: 2px solid blue;"></div>
+            <div class="Dos col-6 product-container" style="border: 2px solid blue;">
+                <!-- Tarjeta 1 -->
+                <div class="product-card">
+                    <img src="https://www.apple.com/v/iphone/home/bx/images/overview/select/iphone_16pro__erw9alves2qa_large.png" alt="iPhone 16 Pro" class="product-image">
+                    <div class="product-details">
+                        <span class="new-badge">Nuevo</span>
+                        <h2 class="product-title">iPhone 16 Pro</h2>
+                        <p class="product-description">El iPhone en su máxima expresión.</p>
+                        <div class="product-buttons">
+                            <button class="info-button">Más información</button>
+                            <button class="buy-button">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="product-card">
+                    <img src="https://www.apple.com/v/iphone/home/bx/images/overview/select/iphone_16__c5bvots96jee_large.png" alt="iPhone 16" class="product-image">
+                    <div class="product-details">
+                        <span class="new-badge">Nuevo</span>
+                        <h2 class="product-title">iPhone 16</h2>
+                        <p class="product-description">Repleto de posibilidades.</p>
+                        <div class="product-buttons">
+                            <button class="info-button">Más información</button>
+                            <button class="buy-button">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="product-card">
+                    <img src="https://www.apple.com/v/iphone/home/bx/images/overview/select/iphone_15__buwagff0mwwi_large.png" alt="iPhone 15" class="product-image">
+                    <div class="product-details">
+                        <span class="new-badge">Nuevo</span>
+                        <h2 class="product-title">iPhone 15</h2>
+                        <p class="product-description">Innovación y estilo.</p>
+                        <div class="product-buttons">
+                            <button class="info-button">Más información</button>
+                            <button class="buy-button">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 4 -->
+                <div class="product-card">
+                    <img src="https://www.apple.com/v/iphone/home/bx/images/overview/select/iphone_14__eso1fig4ci6a_large.png" alt="iPhone 14" class="product-image">
+                    <div class="product-details">
+                        <span class="new-badge">Nuevo</span>
+                        <h2 class="product-title">iPhone 14</h2>
+                        <p class="product-description">Rendimiento avanzado.</p>
+                        <div class="product-buttons">
+                            <button class="info-button">Más información</button>
+                            <button class="buy-button">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Footer -->
-         <footer></footer>
+        <!-- Pie de página -->
+        <footer></footer>
     </div>
 
 </body>
